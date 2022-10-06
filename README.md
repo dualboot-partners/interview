@@ -1,13 +1,13 @@
-# interview
+# Interview
 Interview exercises 
 
-## folder structure
+## Folder structure
 At the root level, there is one folder per level.
 - junior
 - semi
 - senior
 
-## how to proceed
+## How to proceed
 1. clone the repository 
 2. create a branch with your name 
 3. follow the instructions in the readme file to complete the challenge
@@ -15,30 +15,36 @@ At the root level, there is one folder per level.
 5. create a pull request and assign it to the interviewer
 
 
-## challenges
+## Challenges
 
 For each level, you have different technologies, but the challenge (front-end and back-end) is the same no matter your choice.
 
-### junior
+### Junior
 
 This set of challenges will evaluate the basic aspects of programming.
 
-#### front-end
+#### Front-end
+[TODO]
 
-#### back-end
+#### Back-end
+[TODO]
 
-### semi
+### Semi
 
 This set of challenges will evaluate the basic aspects of programming but also good practices of coding. 
 
-#### front-end
+#### Front-end
+[TODO]
 
-#### back-end
+#### Back-end
+[TODO]
 
-### senior 
+### Senior 
 
 This set of challenges are real-world examples of the things you will be doing at DBP.  
 
-#### front-end
+#### Front-end
+[TODO]
 
-#### back-end
+#### Back-end
+[TODO]
