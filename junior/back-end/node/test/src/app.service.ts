@@ -7,7 +7,7 @@ export class AppService {
   }
 
   setHello(text:string): string{
-    var testSonar = 1;
+    const testSonar = 1;
 
     if(testSonar)
 
