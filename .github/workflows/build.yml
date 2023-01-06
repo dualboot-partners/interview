@@ -7,13 +7,13 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 
-env:
-  GITHUB_WORKSPACE: /junior/back-end/node/test
-
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./junior/back-end/node/test
     steps:
       - uses: actions/checkout@v2
         with:
