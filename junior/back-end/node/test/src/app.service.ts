@@ -6,11 +6,19 @@ export class AppService {
     return 'Hello World!';
   }
 
-  setHello(text:string): string{
-    const testSonar = 1;
-
-    if(testSonar)
-
+  setHello(text: string): string {
     return text;
+  }
+
+  sum(a: number, b: number): number {
+    if(!a || !b) throw new Error('a or b cant be null');
+
+    return a + b;
+  }
+
+  divide(a: number, b: number): number {
+    if (b === 0) throw new Error('b cant be zero');
+
+    return a / b;
   }
 }
