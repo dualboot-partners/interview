@@ -47,5 +47,9 @@ describe('AppSerrvice', () => {
     it('shuld return fail, division by zero', () => {
       expect(() => appService.divide(0, 0)).toThrowError('b cant be zero');
     });
+
+    it('should have both params', ()=> {
+      expect(()=> appService.divide(null, null)).toThrowError('a or b cant be null');
+    });
   });
 });

@@ -19,6 +19,8 @@ export class AppService {
   divide(a: number, b: number): number {
     if (b === 0) throw new Error('b cant be zero');
 
+    if(!a || !b) throw new Error('a or b cant be null');
+
     return a / b;
   }
 }
