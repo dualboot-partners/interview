@@ -11,6 +11,8 @@ export class AppService {
   }
 
   sum(a: number, b: number): number {
+    if(!a || !b) throw new Error('a or b cant be null');
+
     return a + b;
   }
 

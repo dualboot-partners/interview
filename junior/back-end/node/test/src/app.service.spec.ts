@@ -28,6 +28,11 @@ describe('AppSerrvice', () => {
     it('should return 2', () => {
       expect(appService.sum(1, 1)).toBe(2);
     });
+
+    it('should have both params', ()=> {
+      expect(()=> appService.sum(null, null)).toThrowError('a or b cant be null');
+    });
+
   });
 
   describe('devide test', () => {
