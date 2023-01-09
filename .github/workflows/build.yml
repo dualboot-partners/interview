@@ -2,8 +2,7 @@ name: Build
 
 on:
   schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron: "8 5 * * *"
+    - cron: "18 5 * * *"
 
 jobs:
   build:
