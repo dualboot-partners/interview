@@ -32,7 +32,7 @@ jobs:
     runs-on: windows-latest
     defaults:
         run:
-          working-directory: ./junior/back-end/.net/test
+          working-directory: ./junior/back-end/.net/junior
     steps:
       - uses: actions/checkout@v2
         with:
