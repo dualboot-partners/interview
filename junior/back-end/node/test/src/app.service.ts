@@ -21,6 +21,8 @@ export class AppService {
 
     if(!a || !b) throw new Error('a or b cant be null');
 
+    //TODO: Dummy change
+
     return a / b;
   }
 }
