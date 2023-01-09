@@ -9,7 +9,7 @@ on:
       - develop
 
 jobs:
-  build:
+  node:
     name: node
     runs-on: ubuntu-latest
     defaults:
@@ -27,7 +27,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-  build:
+  net:
     name: .net
     runs-on: windows-latest
     defaults:
