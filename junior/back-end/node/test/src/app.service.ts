@@ -25,4 +25,8 @@ export class AppService {
 
     return a / b;
   }
+
+  newBuggyfunction(a: number, b: number): number {
+    return null;
+  }
 }
